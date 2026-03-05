@@ -1,0 +1,21 @@
+1.create a directory named btech_project
+->mkdir btech_project
+2.change into the btech_project directory
+->cd btech_project
+3.create a file named data.txt
+insert the text:
+Final year Btech project data
+into data.txt using command line
+->touch data.txt
+->echo "Final year Btech project data" > data.txt
+4.display the content of data.txt
+->cat data.txt
+5.create another directory named backup inside btech_project
+->mkdir backup
+6.copy data.txt into the backup folder
+->cp data.txt backup
+7.rename data.txt to project_data.txt
+->mv data.txt project_data.txt
+8.delete the copied file from the backup directory
+9.rename the empty backup directory
+rm -r backup
