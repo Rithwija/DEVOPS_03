@@ -23,7 +23,7 @@ rm -r backup
 
 pid namespace:
 docker run -it ubuntu
--> -it interaction mode
+-> -it means interaction mode
 
 
 Network Namespace:
