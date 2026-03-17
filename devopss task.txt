@@ -19,3 +19,26 @@ into data.txt using command line
 8.delete the copied file from the backup directory
 9.rename the empty backup directory
 rm -r backup
+
+
+pid namespace:
+docker run -it ubuntu
+-> -it interaction mode
+
+
+Network Namespace:
+docker run -d -p 8080:80 nginx
+(or)
+docker run -d -p 8081:80 nginx
+
+-> -d - detached mode
+-> -p - port
+
+Mount namespace:
+docker run -it ubuntu
+touch sample.txt->creating one file
+cat->to see
+exit->exiting to check the file 
+
+hostname -> to check the hostname
+
